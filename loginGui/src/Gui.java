@@ -62,5 +62,7 @@ public class Gui implements ActionListener {
         }else{
             success.setText("user name or passWord not correct!");
         }
+
+
     }
 }
