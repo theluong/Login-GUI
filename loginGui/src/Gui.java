@@ -1,7 +1,10 @@
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-
+/*
+*
+* @author LuongNT
+*/
 public class Gui implements ActionListener {
     private static  JLabel userLabel;
     private static JTextField userText;
