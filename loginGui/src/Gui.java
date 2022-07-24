@@ -44,6 +44,8 @@ public class Gui implements ActionListener {
         success.setBounds(10,110, 300,25);
         jPanel.add(success);
 
+
+
         jFrame.setVisible(true);
 
     }
