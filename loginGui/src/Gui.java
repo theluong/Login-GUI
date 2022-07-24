@@ -19,7 +19,7 @@ public class Gui implements ActionListener {
 
        jPanel.setLayout(null);
 
-        userLabel = new JLabel("User");
+        userLabel = new JLabel("User Name");
         userLabel.setBounds(10,20,80,25);
        jPanel.add(userLabel);
 
@@ -44,8 +44,6 @@ public class Gui implements ActionListener {
         success.setBounds(10,110, 300,25);
         jPanel.add(success);
 
-
-
         jFrame.setVisible(true);
 
     }
@@ -55,5 +53,11 @@ public class Gui implements ActionListener {
         String user = userText.getText();
         String pass = passwordText.getText();
         System.out.println(user+ "," +pass);
+
+        if(user.equals("theluong") && pass.equals("12345")){
+            success.setText("login sucsess!");
+        }else{
+            success.setText("user name or passWord not correct!");
+        }
     }
 }
